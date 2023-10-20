@@ -2,11 +2,17 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="adoc"
-                 name="API Docs"
-                 start-page="api-docs.md">
+<instance-profile id="hi"
+                 name="Help Instance"
+                 start-page="Default-topic.md">
 
-    <toc-element topic="api-docs.md"/>
+    <toc-element topic="Default-topic.md"/>
+    <toc-element topic="Tutorial.md"/>
+    <toc-element topic="Reference.md"/>
+    <toc-element topic="Starter.md"/>
+    <toc-element topic="How-to.md"/>
+    <toc-element topic="Overview.md"/>
+
     <toc-element topic="API-quickstart.md"/>
     <toc-element topic="API-reference.md">
         <toc-element topic="Pet.md">
@@ -28,4 +34,5 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Changes.md"/>
+    <toc-element topic="api-docs.md"/>
 </instance-profile>
